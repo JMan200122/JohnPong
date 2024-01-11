@@ -52,10 +52,10 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("one_beep-99630.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("cloud-world-calamity-170657.mp3");
+export var ambientSound = new soundFile("8-bit-space-123218.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = 20; //turn dowm volume
+ambientSound.player.volume.value = -20; //turn up volume
 
 export var adventureMusic = new soundFile("silence.mp3");
 soundArray.push(adventureMusic);
